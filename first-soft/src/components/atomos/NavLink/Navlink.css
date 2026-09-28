@@ -1,0 +1,14 @@
+/* src/components/atoms/NavLink/NavLink.css */
+.nav-link {
+  display: block;
+  color: var(--text);
+  text-decoration: none;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.nav-link:hover, .nav-link.active {
+  background: var(--accent-bg);
+  color: var(--accent);
+}

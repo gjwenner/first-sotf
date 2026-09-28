@@ -1,0 +1,18 @@
+/* src/components/organisms/TopBar/TopBar.css */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+.top-bar-left { display: flex; align-items: center; gap: 12px; }
+.top-bar h1 { font-size: 1.2rem; color: var(--text-h); }
+.menu-btn {
+  background: none; border: none; font-size: 1.5rem; cursor: pointer;
+}
+@media (min-width: 768px) {
+  .menu-btn { display: none; }
+  .top-bar h1 { font-size: 1.6rem; }
+}
