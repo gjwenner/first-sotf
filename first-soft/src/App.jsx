@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Sidebar } from './components/organismos/Sidebar/Sidebar';
 import { TopBar } from './components/organismos/TopBar/TopBar';
-import { Card } from './components/atomos/Card/Card';
+//   import { Card } from './components/atomos/Card/Card';
 import { DashboardTemplate } from './components/templates/DashboardTemplate/DashboardTemplate';
 
 function App() {
@@ -31,10 +31,9 @@ function App() {
       }
     >
       {/* Contenido dinámico (Cards) */}
-      <Card title="Usuarios Activos" value="1,245" />
-      <Card title="Ventas del Día" value="$12,300" />
-    </DashboardTemplate>
-  );
+      {/*<Card title="Usuarios Activos" value="1,245" />
+      <Card title="Ventas del Día" value="$12,300" /> */}
+    </DashboardTemplate>  );
 }
 
 export default App;

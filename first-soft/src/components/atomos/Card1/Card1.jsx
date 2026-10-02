@@ -1,4 +1,4 @@
-import './Card.css';
+/*import './Card1.css';
 
 export const Card = ({ title, value }) => {
   return (
@@ -7,4 +7,4 @@ export const Card = ({ title, value }) => {
       <p>{value}</p>
     </div>
   );
-};
+};*/

@@ -1,6 +1,7 @@
 /* src/components/organisms/Sidebar/Sidebar.css */
 .sidebar {
   background: var(--bg);
+  background-color: oklch(78.691% 0.06844 259.647);
   border-right: 1px solid var(--border);
   padding: 24px;
   display: flex;
